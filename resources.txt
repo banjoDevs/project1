@@ -1,0 +1,43 @@
+*accordion
+*modal (saving)
+*offcanvas
+
+
+resources
+
+
+>Body background
+
+https://joy.videvo.net/videvo_files/video/free/
+2016-03/small_watermarked/Hologram_Planet_by_nuva_preview.webm
+
+https://www.istockphoto.com/video/3d-technological-hologram-science
+-hud-interface-element-abstract-waving-surface-from-gm1285646248-
+382408455
+
+<button class="btn d-md-none d-block close-btn px-2 py-0 text-black"><i class="fa fa-stream"></i></button>
+     <ul class="list-unstyled px-2">
+                        <li class=""><a href="#" class="text-decoration-none">HOME</a></li>
+                        <hr class="h-color mx-2">
+                        <li class=""><a href="#" class="text-decoration-none">KERRET NFTs</a></li>
+                        <li class=""><a href="#" class="text-decoration-none">Farm</a></li>
+                        <li class=""><a href="#" class="text-decoration-none">BUY & SWAP</a></li>
+                        <li class=""><a href="#" class="text-decoration-none">LAUNCHPAD</a></li>
+                        <li class=""><a href="#" class="text-decoration-none">WITHDRAW</a></li>
+                  
+
+                      </ul>
+
+
+
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">MORE</button>
+                        <div id="demo" class="collapse">
+                            <a href="#">CONTACT</a>
+                        </div>
+                        <div id="demo" class="collapse">
+                            <a href="#">DOCS</a>
+                        </div>
+                        <div id="demo" class="collapse">
+                            <a href="#">MERCHANT SIGNUP</a>
+                        </div>
