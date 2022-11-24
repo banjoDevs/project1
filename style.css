@@ -1,12 +1,12 @@
 .ficna {
     font-size: 70px;
-  line-height: 3;
-  position: relative;
-  display: inline-block;
-  color: #703eb0;
-  letter-spacing: 0px;
-  font-weight: 600;
-  margin-top: 10px;
+    line-height: 3;
+    position: relative;
+    display: inline-block;
+    color: #703eb0;
+    letter-spacing: 0px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 /* header*/
@@ -44,4 +44,9 @@
     color: #262626;
     border-radius: 5px;
     transition: all 0.6s ease 0s;
+}
+
+/* carousel */
+.carousel-inner {
+	border-radius: 30%;
 }
