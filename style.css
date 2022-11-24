@@ -1,9 +1,9 @@
 .ficna {
-    font-size: 70px;
+    font-size: 100px;
     line-height: 3;
     position: relative;
     display: inline-block;
-    color: #703eb0;
+    color: #ffffff;
     letter-spacing: 0px;
     font-weight: 600;
     margin-top: 10px;
@@ -39,14 +39,188 @@
     letter-spacing: 2px;
     font-size: 1em;
     font-weight: 700;
-}  .nav-link:hover {
+}  
+.nav-link:hover {
     background: #dcdde1 !important;
     color: #262626;
     border-radius: 5px;
     transition: all 0.6s ease 0s;
 }
+.main {
+    position: relative;
+    background: url(https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 280px 0 220px;
+}
+.main .h5 {
+	font-size: 2.6em;
+    color: #dcdde1;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+.main .navlink active{
+	background: #718093;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+    
 
 /* carousel */
 .carousel-inner {
 	border-radius: 30%;
+
 }
+
+/*footer*/
+.footer-area {
+    padding: 125px 0 20px;
+    position: relative;
+    z-index: 1;
+    background: url(images\footer-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.widge-about-text {
+    margin-top: 25px;
+}
+.widge-about-text p {
+    color: #000000;
+}
+.widge-social-icon {
+    margin-top: 25px;
+}
+.widget-title h4 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    position: relative;
+    color: #000000;
+    font-weight: 600;
+}
+.widget-title.footer-title h4 {
+    margin-bottom: 20px;
+}
+.widge-social-icon a {
+    background-color: #7863FB;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s;
+    margin-right: 7px;
+}
+.single-widget.upper{
+    position: relative;
+    padding-left: 35px;
+}
+.widge-link ul li:first-child {
+    padding-top: 0;
+}
+.widge-link ul li {
+    position: relative;
+    list-style: none;
+    margin-bottom: 11px;
+}
+.widge-link ul li a {
+    color: #000000;
+    font-size: 16px;
+    display: inline-block;
+    transition: .5s;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+.widge-link ul li::before {
+    position: absolute;
+    content: "\f061";
+    left: 0;
+    top: 0;
+    font-size: 12px;
+    font-family: "FontAwesome";
+    font-weight: 900;
+    color: #000000;
+    padding-right: 14px;
+}
+.widget-inner {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.widget-social-information {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.widget-social-information h5 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.widget-social-information p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+.widget-icon {
+    margin-right: 17px;
+    margin-top: 13px;
+}
+.widget-icon i {
+    height: 45px;
+    width: 45px;
+    background: #7863FB;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 11px 12px;
+}
+.copyright-text {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #000000;
+    transition: 0.3s;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 23px 0px 0px 0px;
+}
+.copyright-text p {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.widge-social-icon a:hover {
+    background: #ffffff;
+    color: #7863FB;
+}
+.widge-link ul li a:hover {
+    color: rgb(53, 185, 253);
+}
+.widge-link ul li:hover::before {
+    color: rgb(53, 185, 253);
+}
+.copyright-text {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #FFFFFF33;
+    transition: 0.3s;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 23px 0px 0px 0px;
+}
+.copyright-text p {
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
