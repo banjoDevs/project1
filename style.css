@@ -72,6 +72,15 @@
     text-transform: uppercase;
     font-weight: bold;
 } 
+.main3 {
+	background: url(https://my.pldthome.com/assets/images/paperless/main-banner-demo.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 200x 0 200x;
+    position: fit;
+    
+}
 .main .navlink active{
 	background: #718093;
     color: #fff;
