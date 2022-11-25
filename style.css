@@ -139,6 +139,18 @@
 .widge-social-icon {
     margin-top: 25px;
 }
+.widge-social-icon a {
+    background-color: #7863FB;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s;
+    margin-right: 7px;
+}
 .widget-title h4 {
     font-size: 24px;
     margin-bottom: 30px;
