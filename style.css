@@ -73,6 +73,12 @@
     padding: 10px 20px;
     text-decoration: none;
 }
+.main .p {
+    font-size: 2.6em;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
     
 /* carousel */
 .carousel-inner {
