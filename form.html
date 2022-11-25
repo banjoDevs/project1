@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Imperial Network | Data Solutions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+  
+  
+  <style>
+  * {
+	margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+  }
+  #header {
+  	position: absolute;
+    z-index: 10;
+    width: 100%
+  }
+   #header4 {
+  	position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+  .navbar {
+  	padding: 50px 0;
+  }
+  .navbar-brand {
+  	background: url (https://github.com/banjoDevs/project1/blob/main/images/logo.png);
+  	font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #ccc !important;
+  }
+  .nav-item{
+  	font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 50px;
+  }
+  .nav-link{
+  	color: #ccc !important;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 700;
+  }
+  .nav-link:hover {
+  	background: #dcdde1 !important;
+    color: #262626;
+    border-radius: 5px;
+    transition: all 0.6s ease 0s;
+  }
+.main {
+    position: fit;
+    background: url(/*https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1*/);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0 0px;
+}
+.main2 {
+	position: relative;
+    background: url(/*https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1*/);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 280px 0 220px;
+}
+.HSDS {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 48px;
+}
+.main .h5 {
+	font-size: 2.6em;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+
+.main p {
+	margin-top: 1em;
+    padding: 0;
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+.main .navlink active{
+	background: #718093;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.ficna {
+  	font-size: 100px;
+    line-height: 3;
+    position: relative;
+    display: inline-block;
+    color: #fffff;
+    letter-spacing: 0px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+
+.footer-area {
+    padding: 100px 0 20px;
+    position: relative;
+    z-index: 1;
+    background: url(/*https://images.pexels.com/photos/3605420/pexels-photo-3605420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1*/);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.widge-about-text {
+    margin-top: 25px;
+}
+.widge-about-text p {
+    color: #000000;
+}
+.widge-social-icon {
+    margin-top: 25px;
+}
+.widget-title h4 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    position: relative;
+    color: #000000;
+    font-weight: 600;
+}
+.widget-title.footer-title h4 {
+    margin-bottom: 20px;
+}
+.widge-social-icon a {
+    background-color: #7863FB;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s;
+    margin-right: 7px;
+}
+.single-widget.upper{
+    position: relative;
+    padding-left: 35px;
+}
+.widge-link ul li:first-child {
+    padding-top: 0;
+}
+.widge-link ul li {
+    position: relative;
+    list-style: none;
+    margin-bottom: 11px;
+}
+.widge-link ul li a {
+    color: #000000;
+    font-size: 16px;
+    display: inline-block;
+    transition: .5s;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+.widge-link ul li::before {
+    position: absolute;
+    content: "\f061";
+    left: 0;
+    top: 0;
+    font-size: 12px;
+    font-family: "FontAwesome";
+    font-weight: 900;
+    color: #000000;
+    padding-right: 14px;
+}
+.widget-inner {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.widget-social-information {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.widget-social-information h5 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.widget-social-information p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+.widget-icon {
+    margin-right: 17px;
+    margin-top: 13px;
+}
+.widget-icon i {
+    height: 45px;
+    width: 45px;
+    background: #7863FB;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 11px 12px;
+}
+.copyright-text {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #000000;
+    transition: 0.3s;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 23px 0px 0px 0px;
+}
+.copyright-text p {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.widge-social-icon a:hover {
+    background: #ffffff;
+    color: #7863FB;
+}
+.widge-link ul li a:hover {
+    color: rgb(53, 185, 253);
+}
+.widge-link ul li:hover::before {
+    color: rgb(53, 185, 253);
+}
+.copyright-text {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #FFFFFF33;
+    transition: 0.3s;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 23px 0px 0px 0px;
+}
+.copyright-text p {
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+.h5 {
+	color: secondary;
+}
+.carousel-inner {
+	border-radius: 20%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.carousel-top {
+	text-align: center;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #849bf4;
+    transition: 0.3s;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0px 0px 0px 0px;
+    font-size: 40px;
+  	text-transform: uppercase;
+  	line-height: 48px;
+    
+}
+.pricing-top {
+	text-align: center;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #000000;
+    transition: 0.5s;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0px 0px 0px 0px;
+}
+.get{
+	font-size: 40px;
+  	color: #ffffff;
+  	text-transform: uppercase;
+ 	line-height: 48px;
+}
+.nav-link active{
+	text-align: center;
+}
+
+.services-section .section-title {
+	margin-bottom: 35px;
+}
+.single-services-item {
+	position: relative;
+	z-index: 1;
+	display: block;
+	padding: 35px 30px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-top: 30px;
+	overflow: hidden;
+    -webkit-box-shadow: 0px 2px 25px 0px rgb(110, 110, 110, 0.12);
+    -moz-box-shadow: 0px 2px 25px 0px rgb(110, 110, 110, 0.12);
+    box-shadow: 0px 2px 25px 0px rgb(110, 110, 110, 0.12);
+    -webkit-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+}
+
+.services-icon {
+    display: inline-block;
+    margin-bottom: 25px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    will-change: transform;
+}
+.single-services-item .services-btn-link .services-link {
+    display: inline-block;
+    font-size: 16px;
+    color: #635CDB;
+	letter-spacing: 0.5px;
+    font-weight: 600;
+    -webkit-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+	text-decoration: underline;
+}
+.nswu {
+	text-align: center;
+}
+
+
+#panelsStayOpen-collapseOne {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.main3 {
+	background: url(https://images.pexels.com/photos/4026204/pexels-photo-4026204.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0 250px;
+    position: fit;    
+}
+  
+  </style>
+  
+  
+  
+</head>
+<body>
+<section id="header4">
+	<div class="container-fluid">
+    	<nav class="navbar navbar-expand-lg navbar-light">
+        	<div class="container">
+            	<img src="https://github.com/banjoDevs/project1/blob/main/images/logo.png?raw=true" width="150" alt="logo">
+                <button class="navbar-toggler" type="button" data-target="navbarSupportedContent" data-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+                 <ul class="navbar-nav ml-auto">
+                 	<li class="nav-item active">
+                    	<a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                    	<a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item active">
+                    	<a href="#" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item active">
+                    	<a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item active">
+                    	<a href="#" class="nav-link">Contact</a>
+                    </li>
+                 </ul><br>
+                  <form class="d-flex">
+<a href="#" class="btn btn-primary enable">Log In</a>
+      </form>
+            </div>
+        </nav>
+    </div>
+<!--header-->
+
+<!--Body-->
+<section class="main3">
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4 col-md-4">
+    
+      <form action="/action_page.php">
+  <div class="mb-3 mt-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+  </div>
+  <div class="mb-3">
+    <label for="pwd" class="form-label">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  </div>
+  <div class="form-check mb-3">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+    </label>
+  </div>
+  <div class="mb-6">
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+    	
+        
+  </div>
+</div>
+<br>
+<hr>
+
+<section class="services-section pt-70 pb-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services-item">
+						<div class="services-icon">
+							<i class="pe-7s-tools"></i>
+						</div>
+						<h3>Chat with Us!</h3>
+						<p>Need to report a service issue, request for reconnection and do aftersales transactions? Use our Imperial Network FB Messenger for quick and easy assistance.</p>
+						<div class="widge-social-icon">
+                            <a href="https://www.facebook.com/imperialsilangan"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services-item">
+						<div class="services-icon">
+							<i class="pe-7s-display1"></i>
+						</div>
+						<h3>Downlad the Imperial Network App</h3>
+						<p>Manage your account, report a problem, file a Help ticket and pay bills at your finertips.</p>
+						<div class="services-btn-link">
+							<a href="#0" class="services-link">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services-item">
+						<div class="services-icon">
+							<i class="pe-7s-share"></i>
+						</div>
+						<h3>Book an Appointment</h3>
+						<p>Stay safe at home! Schedule a virtual appointment for new applications and after sales transaction.</p>
+						<div class="services-btn-link">
+							<a href="#0" class="services-link">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><br>
+    
+<!-- Frequently Asked Question -->
+<div
+<div class="frequentlyhead"><h1>Frequently Asked Questions</h1><
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        How can I create my Imperial Network ID?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>Follow these simple steps to create your Imperial account:</strong> 1. Visit our portal@imperial.com and click Create a Imperial ID.<br>2. Enter your email address, first name and last name, and preferred password.<br>3. You will receive an email from Imperial Network. Click the link provided in the email to verify your account.<br>4. Link your Imperial account/s to begin managing accounts online.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        How do I link my Account to my Imeperial ID?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>1. Begin by entering your Imperial account number.</strong><br><strong>2. You will be askedto validate your identity to ensure the security of your Imeperial ID. There are two ways of validation:</strong> -via OTP (one-time PIN) - a 4-digit verification code will be sent to your registered mobile number which you submitted during application of you account service.<code>Note that this should be done by the subscriber on record.</code>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        I forgot my password. How do I change it?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>Follow these simple steps to reset your password:</strong> 1. Go to Imperialnetwork.com then click Forgot Password.<br>2. Enter your Imperial registered email address.<br>3. Click on the link included in the email sent to your email address then reset your password.
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+<!-- footer -->
+           
+            <div class="col-lg-12">
+                <div class="copyright-text">
+                    <p>© 2022 ImperialNetwork. All rights reserved.</p>					
+                </div>
+                
+            </div>
+        </div>
+ 
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
