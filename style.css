@@ -79,6 +79,12 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+.HSDS {
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 48px;
+}
     
 /* carousel */
 .carousel-inner {
