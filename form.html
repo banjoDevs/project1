@@ -337,15 +337,14 @@
 	text-align: center;
 }
 
-.main3 {
-	background: url(https://images.pexels.com/photos/4026204/pexels-photo-4026204.jpeg?auto=compress&cs=tinysrgb&w=1600);
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    padding: 200px 0 250px;
-    position: fit;    
+
+#panelsStayOpen-collapseOne {
+  &:not(.show) {
+    display: none;
+  }
 }
-.main5 {
+
+.main3 {
 	background: url(https://images.pexels.com/photos/4026204/pexels-photo-4026204.jpeg?auto=compress&cs=tinysrgb&w=1600);
     min-height: 100vh;
     background-size: cover;
@@ -395,7 +394,7 @@
 <!--header-->
 
 <!--Body-->
-<section class="main5">
+<section class="main3">
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-4 col-md-4">
@@ -406,7 +405,7 @@
     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
   </div>
   <div class="mb-3">
-    <label for="pwd" class="form-label"></label>
+    <label for="pwd" class="form-label">Password:</label>
     <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
   </div>
   <div class="form-check mb-3">
@@ -469,7 +468,8 @@
 	</section><br>
     
 <!-- Frequently Asked Question -->
-</div> class="frequentlyhead"><h1>Frequently Asked Questions</h1>
+<div
+<div class="frequentlyhead"><h1>Frequently Asked Questions</h1></div>
 
 <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
