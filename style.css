@@ -206,9 +206,9 @@
     height: 45px;
     width: 45px;
     background: #7863FB;
-    color: #fff;
+    color: none;
     text-align: center;
-    line-height: 45px;
+    line-height: 30px;
     border-radius: 50%;
     font-size: 20px;
     padding: 11px 12px;
