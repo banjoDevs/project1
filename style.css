@@ -56,10 +56,16 @@
 }
 .main .h5 {
 	font-size: 2.6em;
-    color: #dcdde1;
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;   
 }
+.main .h2 {
+    font-size: 2.6em;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+} 
 .main .navlink active{
 	background: #718093;
     color: #fff;
