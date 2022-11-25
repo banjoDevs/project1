@@ -136,17 +136,16 @@
 .widget-title.footer-title h4 {
     margin-bottom: 20px;
 }
-.widge-social-icon a {
-    background-color: #7863FB;
+.widget-icon i {
     height: 45px;
     width: 45px;
-    line-height: 45px;
-    display: inline-block;
+    background: #ffffff;
+    color: none;
     text-align: center;
-    border-radius: 5px;
-    color: #fff;
-    transition: .5s;
-    margin-right: 7px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 11px 12px;
 }
 .single-widget.upper{
     position: relative;
