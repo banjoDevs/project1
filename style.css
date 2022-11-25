@@ -283,3 +283,39 @@
 .nswu {
 	text-align: center;
 }
+.services-section .section-title {
+	margin-bottom: 35px;
+}
+.single-services-item {
+	position: relative;
+	z-index: 1;
+	display: block;
+	padding: 35px 30px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-top: 30px;
+	overflow: hidden;
+    -webkit-box-shadow: 0px 2px 25px 0px rgb(110, 110, 110, 0.12);
+    -moz-box-shadow: 0px 2px 25px 0px rgb(110, 110, 110, 0.12);
+    box-shadow: 0px 2px 25px 0px rgb(110, 110, 110, 0.12);
+    -webkit-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+}
+.services-icon {
+    display: inline-block;
+    margin-bottom: 25px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    will-change: transform;
+}
+.single-services-item .services-btn-link .services-link {
+    display: inline-block;
+    font-size: 16px;
+    color: #635CDB;
+	letter-spacing: 0.5px;
+    font-weight: 600;
+    -webkit-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+	text-decoration: underline;
+}
