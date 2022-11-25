@@ -23,6 +23,12 @@
 .navbar {
     padding: 50px 0;
 }
+.get{
+	font-size: 40px;
+  	color: #ffffff;
+  	text-transform: uppercase;
+ 	line-height: 48px;
+}
 .navbar-brand {
     font-weight: bold;
     font-size: 1.5em;
