@@ -327,3 +327,12 @@
     transition: all 400ms ease-out;
 	text-decoration: underline;
 }
+.container-2{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    border:1px #ccc solid;
+}
+.card{
+    width:20%;
+}
